@@ -56,7 +56,7 @@ const sliders = (slides, dir, prev, next) => {
                 plusSlides(1);
                 items[slideIndex - 1].classList.remove('slideInRight');
                 items[slideIndex - 1].classList.add('slideInLeft');
-            }, 3000);  
+            }, 3000);
             
         };
     };
@@ -75,3 +75,4 @@ const sliders = (slides, dir, prev, next) => {
 };
 
 export default sliders;
+
